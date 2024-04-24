@@ -152,6 +152,80 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-CLion-complie" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2024/04/24/CLion-complie/">CLion_complie</a>
+    </h1>
+  
+
+        
+        <a href="/2024/04/24/CLion-complie/" class="archive-article-date">
+  	<time datetime="2024-04-24T03:29:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-04-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="CLion编译报错-无法编译构建-未找到编译命令"><a href="#CLion编译报错-无法编译构建-未找到编译命令" class="headerlink" title="CLion编译报错 无法编译构建 未找到编译命令"></a>CLion编译报错 无法编译构建 未找到编译命令</h1><p>windows下有时候用CLion打开包含makefile的项目时，无法正确编译或解析</p>
+<p><img src="/2024/04/24/CLion-complie/image-20240424113554176.png" alt="image-20240424113554176"> </p>
+<p>目前主要找到两个解决方法，建议都分别试试。</p>
+<h4 id="1、改makefile文件"><a href="#1、改makefile文件" class="headerlink" title="1、改makefile文件"></a>1、改makefile文件</h4><p>把<code>make</code>改成<code>$(MAKE)</code>:</p>
+<p><img src="/2024/04/24/CLion-complie/image-20240424113622621.png" alt="image-20240424113622621"> </p>
+<p>:arrow_double_down:</p>
+<p><img src="/2024/04/24/CLion-complie/image-20240424113758245.png" alt="image-20240424113758245"> </p>
+<p>感觉这种情况是CLion的编译器没正确加载造成的</p>
+<h4 id="2、改设置中Makefile设置"><a href="#2、改设置中Makefile设置" class="headerlink" title="2、改设置中Makefile设置"></a>2、改设置中Makefile设置</h4><p><img src="/2024/04/24/CLion-complie/image-20240424113953190.png" alt="image-20240424113953190"> </p>
+<p>:arrow_double_down:</p>
+<p><img src="/2024/04/24/CLion-complie/image-20240424114014481.png" alt="image-20240424114014481"> </p>
+<p>这个挺玄学的，忘了在哪看到的，有时候可以解决</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2024/04/24/CLion-complie/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -174,6 +248,8 @@
       
         <h2 id="测试图片"><a href="#测试图片" class="headerlink" title="测试图片"></a>测试图片</h2><p><img src="/2024/04/23/test/image-20240423195759109.png" alt="image-20240423195759109"> </p>
 <p>:heart_eyes:</p>
+<p>csdn markdown欢迎页 语法说明：</p>
+<p><a target="_blank" rel="noopener" href="https://editor.csdn.net/md?not_checkout=1&spm=1000.2115.3001.4503&articleId=138137244">写文章-CSDN博客</a></p>
 
       
 
